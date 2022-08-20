@@ -1,0 +1,41 @@
+.sneaker-company {
+  color: rgb(245, 164, 88);
+  /* text-decoration: wavy; */
+ } 
+ .product-content{
+    text-align:center;
+ }
+.Add-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+
+}
+.discount {
+  margin: 5%;
+}
+.addCart {
+  padding: 3%;
+  height: auto;
+
+}
+.product-text {
+  text-align: justify;
+  width:50%;
+  margin:auto;
+}
+.icon-minus {
+  width: 2vw;
+  height: 3vh;
+  border: 2px solid rgb(253, 169, 112);
+  padding: 10%;
+}
+.icon-plus {
+  width: 2vw;
+  height: 3vh;
+  border: 2px solid rgb(238, 159, 106);
+  padding: 10%;
+}

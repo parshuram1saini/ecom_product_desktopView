@@ -1,0 +1,33 @@
+.image-container {
+  position: relative;
+}
+.shoes_active {
+  border-radius: 5%;
+  width: 23vw;
+}
+.small_allshoes {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+}
+#small-shoes {
+  width: 5vw;
+  height: 5vh;
+  margin-top: 1%;
+  border-radius: 5%;
+}
+.clicked {
+  border: 2px solid black;
+  opacity: 0.5;
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.thumbnail {
+  padding-left: 7px;
+  display: flex;
+}
+.imageExpandIcon {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}

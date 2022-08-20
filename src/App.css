@@ -1,0 +1,44 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 17px;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Mouse Memoirs", sans-serif;
+}
+.image-content-flex {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  margin-top: 5%;
+}
+.cart-open {
+  opacity: 1;
+}
+.ui-transparent {
+  opacity: 1;
+}
+
+.fix-transparent {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  top: 0;
+  left: 0;
+}
+
+.d-block {
+  display: block;
+}
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
